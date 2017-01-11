@@ -1,10 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Created by Cyril on 04/01/2017.
- */
-
 public class Principal extends JFrame {
 
     private static final long serialVersionUID = 1L;
@@ -45,7 +41,7 @@ public class Principal extends JFrame {
     private static void createAndShowGUI() {
         JFrame fenetre = new Principal();
 
-        fenetre.setTitle("Ma première fenêtre Java");
+        fenetre.setTitle("TP Abstract Factory");
         fenetre.setSize(400, 150);
         fenetre.setLocationRelativeTo(null);
         fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
